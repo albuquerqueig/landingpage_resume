@@ -39,8 +39,8 @@ header {
 }
 
 .project-title {
-  margin-left: 0.25rem; /* Alterado para uma unidade relativa */
-  margin-top: 0.625rem; /* Alterado para uma unidade relativa */
+  margin-left: 1.8rem; /* Alterado para uma unidade relativa */
+  margin-top: 2rem; /* Alterado para uma unidade relativa */
 }
 
 .project {
@@ -49,18 +49,19 @@ header {
   border-radius: 5px;
   box-shadow: 0 0.25rem 0.625rem #0000001a;
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
+  height: 32rem;
   max-width: 37.5rem; /* Alterado para uma unidade relativa */
   transition: transform 0.3s ease;
 }
 
 .project img {
-  width: 70rem; /* Alterado para uma unidade relativa */
-  height: 20rem; /* Alterado para uma unidade relativa */
+  width: 100%; /* Alterado para uma unidade relativa */
+  height: 21rem; /* Alterado para uma unidade relativa */
   margin-top: 0.625rem; /* Alterado para uma unidade relativa */
-  margin-left: 0.625rem; /* Alterado para uma unidade relativa */
+  margin-left: 3.8rem; /* Alterado para uma unidade relativa */
   margin-bottom: 0.625rem; /* Alterado para uma unidade relativa */
-  border-radius: 5px;
+  border-radius: 0.2rem;
   object-fit: cover;
 }
 
@@ -99,7 +100,7 @@ header {
   }
 
   .project img {
-    width: 18.75rem;
+    width: auto;
     height: 16.25rem;
     margin-top: 0.3125rem;
     margin-left: 0.3125rem;
@@ -131,7 +132,7 @@ header {
   }
 
   .project img {
-    width: 18.75rem;
+    width: auto;
     height: 16.25rem;
     margin-top: 0.3125rem;
     margin-left: 0.3125rem;
@@ -186,15 +187,16 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem; /* Alterado para uma unidade relativa */
-  line-height: 3.125rem; /* Alterado para uma unidade relativa */
-  font-family: poppinsmedium;
+  width: auto;
+  font-size: 1.5rem; /* Alterado para uma unidade relativa */
+  line-height: 1.8rem; /* Alterado para uma unidade relativa */
+  font-family: poppinslight;
   margin-left: 9.375rem; /* Alterado para uma unidade relativa */
-  margin-right: 2rem;
+  margin-right: 2rem;  
 }
 
 h3 {
-  margin-left: 9.375rem; /* Alterado para uma unidade relativa */
+  margin-left: 8rem; /* Alterado para uma unidade relativa */
   margin-top: 1.40625rem; /* Alterado para uma unidade relativa */
   font-size: 3.2rem; /* Alterado para uma unidade relativa */
   line-height: 0.625rem; /* Alterado para uma unidade relativa */
@@ -320,19 +322,19 @@ p1 {
 }
 
 article {
-  margin-right: 8%; /* Alterado para uma unidade relativa */
-  margin-left: 4%; /* Alterado para uma unidade relativa */
+  margin-right: 13%; /* Alterado para uma unidade relativa */
+  margin-left: 1%; /* Alterado para uma unidade relativa */
 }
 
 #article {
-  margin-left: 4%; /* Alterado para uma unidade relativa */
-  margin-right: 4%; /* Alterado para uma unidade relativa */
+  margin-left: 8%; /* Alterado para uma unidade relativa */
+  margin-right: 3%; /* Alterado para uma unidade relativa */
 }
 
 img {
   display: flex;
   align-items: flex-end; /* Alterado para alinhar na parte inferior */
-  margin-left: 5%; /* Alterado para uma unidade relativa */
+  margin-left: 4%; /* Alterado para uma unidade relativa */
   max-width: 300px; /* Alterado para uma unidade relativa */
   border-radius: 50%; /* Alterado para um círculo */
 }
@@ -423,14 +425,6 @@ button {
   background-color: #8b1ed2;
 }
 
-footer {
-  right: 0;
-  width: 100%;
-  background-color: #590091;
-  display: flex;
-  justify-content: center;
-}
-
 /* Media queries para ajustar os estilos em diferentes tamanhos de tela */
 @media screen and (max-width: 768px) {
   button {
@@ -470,4 +464,20 @@ footer {
   .next-button {
     right: 1rem; /* Alterado para uma unidade relativa */
   }
+}
+
+footer {
+  background-color: #8b1ed2;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.55rem;
+  color: #F1F1F1;
+  font-family: poppinsregular;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
 }
